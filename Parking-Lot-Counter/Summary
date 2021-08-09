@@ -3,6 +3,9 @@ Consider a parking lot with a single entry and exit gate. There are two sensors 
 of cars passing through. When a object is detected by a sensor, it will output a 1. Design a program to
 determine whether a car in entering or exiting, or whether a pedestran is passing through. 
 
+![image](https://user-images.githubusercontent.com/78777692/128780736-220e507d-5b96-4f09-814f-66a5bc3ff62f.png)
+
+
 The following sequence indicates that a car enters:
  - Both sensors are off: (a & b = 0 )
  - Sensor a is triggered ( a = 1, b=0)
