@@ -1,0 +1,19 @@
+This code was designed to solve the following problem:
+Consider a parking lot with a single entry and exit gate. There are two sensors (a & b), that are used to monitor the activity 
+of cars passing through. When a object is detected by a sensor, it will output a 1. Design a program to
+determine whether a car in entering or exiting, or whether a pedestran is passing through. 
+
+The following sequence indicates that a car enters:
+ - Both sensors are off: (a & b = 0 )
+ - Sensor a is triggered ( a = 1, b=0)
+ -  Both sensor trigger (a & b = 1)
+ - Sensor a is off (a =0, b=1)
+ - Both sensor off ( a & b = 0) 
+ ____________________________________________________________________________________________________________________________________
+ 
+ Solved:
+ Design a FSM with two input signals (a and b), and two output signals (car_enter and car_exit).
+ The car_enter and car_exit signals assert one clock cycle when a car enters and exits the lot respectively.
+ Implement the system on the FPGA board utilizing two debounced pushbuttons to mimic the operaction of two sensor outputs. 
+ Display the content on the seven segment display part of the FPGA board. 
+ 
