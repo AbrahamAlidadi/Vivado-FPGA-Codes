@@ -1,9 +1,0 @@
-Create a morse code decoder that does the following when taking an input 'b':
-- dot: when the input b in inputted one unit of time
-- dash: when input b in inputted for three units of time
--lg: letter gap (3 units of time of doing nothing), this creates a space between letters
-- wg: denotes the end of a word (5 units of time of doing nothing), 
-
-![image](https://user-images.githubusercontent.com/78777692/129114777-23c1792f-d846-4f99-b961-67a90b66f7f1.png)
-
-![image](https://user-images.githubusercontent.com/78777692/129114812-d00e27f9-89cd-4abe-9179-65c922af27eb.png)
