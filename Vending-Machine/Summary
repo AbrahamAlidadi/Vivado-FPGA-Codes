@@ -1,0 +1,15 @@
+Design a vending machine controller. The vending machine dispenses a single item that cost a 25 cents. The machine will accept 
+5 cent, 10 cent, and 25 cent coins. When enough coins have been inserted, it dispenses the item and any leftover change. 
+
+Create a FSM based on:
+Inputs: 
+-5cents,10cents, 25cents for nickel,dime,quarter
+-item_taken: indicate the item has been taken after being dispensed
+-Add other inputs if necessary
+
+Outputs:
+- dispense: indicated an item should be dispensed or has been dispensed
+- r5,r10,r20: for returning a nickle,dime,two dimes (the leftover change that should be dispensed after buying an item)
+
+When an item is dispensed and taken, the FSM should start acceptng coins for another item. 
+
