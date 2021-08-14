@@ -1,0 +1,3 @@
+Create a code that generates random numbers from 0 to 255 on two different seven segments. P1 will press a button to stop one of the seven segment's number that was randomly
+generated. Then P2 will press a button to randomly pick a number from the other seven segment. The two numbers are then compared, and the player with the largest number will receive
+a point for winning. This will continue until the score is 2-1. Afterwards, the player must reset the game to begin a new one. 
